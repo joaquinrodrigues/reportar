@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reportar Noticias - Actualidad 24/7</title>
+    <meta name="description" content="Reportar Noticias: Cobertura profesional, imparcial y en tiempo real de los hechos más relevantes en política, economía, tecnología y cultura." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="top-bar">
+            <div class="brand">
+                <span class="brand__dot">.com</span>
+                <span class="brand__name">Reportar Noticias</span>
+            </div>
+            <div class="top-bar__meta">
+                <time datetime="2024-05-22">Miércoles, 22 de mayo de 2024</time>
+                <a class="top-bar__subscribe" href="#boletin">Suscríbete</a>
+            </div>
+        </div>
+        <nav class="main-nav" aria-label="Secciones principales">
+            <button class="main-nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+                <span class="visually-hidden">Abrir menú</span>
+                <span></span><span></span><span></span>
+            </button>
+            <ul id="nav-menu">
+                <li><a href="#destacadas">Destacadas</a></li>
+                <li><a href="#politica">Política</a></li>
+                <li><a href="#economia">Economía</a></li>
+                <li><a href="#mundo">Mundo</a></li>
+                <li><a href="#tecnologia">Tecnología</a></li>
+                <li><a href="#cultura">Cultura</a></li>
+                <li><a href="#opinion">Opinión</a></li>
+            </ul>
+            <form class="main-nav__search" role="search" aria-label="Buscar en Reportar Noticias">
+                <label for="search-input" class="visually-hidden">Buscar</label>
+                <input id="search-input" type="search" placeholder="Buscar..." />
+                <button type="submit">🔍</button>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="destacadas">
+            <article class="hero__main">
+                <img src="assets/img/hero-principal.svg" alt="Panorámica de la ciudad al atardecer" />
+                <div class="hero__content">
+                    <p class="tag">Investigación</p>
+                    <h1>Ciudades inteligentes: El laboratorio urbano que redefine la movilidad</h1>
+                    <p>Reportar Noticias accede a datos exclusivos que muestran cómo la analítica en tiempo real y la participación ciudadana están transformando las grandes urbes latinoamericanas.</p>
+                    <a class="link--primary" href="#">Leer artículo</a>
+                </div>
+            </article>
+            <div class="hero__secondary">
+                <article>
+                    <p class="tag tag--economy">Economía</p>
+                    <h2>Mercados reaccionan a la nueva política monetaria regional</h2>
+                    <p>Analistas anticipan ajustes en tasas e inversión pública para controlar la inflación sin frenar el crecimiento.</p>
+                    <a class="link--secondary" href="#">Leer más</a>
+                </article>
+                <article>
+                    <p class="tag tag--world">Mundo</p>
+                    <h2>Cumbre climática logra acuerdo histórico sobre energías limpias</h2>
+                    <p>Líderes de 70 países pactan financiamiento y metas vinculantes para acelerar la transición energética.</p>
+                    <a class="link--secondary" href="#">Leer más</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="news-grid" aria-labelledby="titulo-ultimas">
+            <div class="section-heading">
+                <h2 id="titulo-ultimas">Últimas noticias</h2>
+                <a class="section-heading__link" href="#">Ver todo</a>
+            </div>
+            <div class="news-grid__wrapper">
+                <article>
+                    <img src="assets/img/noticia1.svg" alt="Sala de conferencias con ejecutivos" />
+                    <p class="tag tag--politics">Política</p>
+                    <h3>Congreso aprueba paquete de transparencia y datos abiertos</h3>
+                    <p>Las nuevas normas exigirán reportes trimestrales y plataformas interoperables para la ciudadanía.</p>
+                    <a class="link--secondary" href="#">Leer más</a>
+                </article>
+                <article>
+                    <img src="assets/img/noticia2.svg" alt="Vista aérea de un puerto industrial" />
+                    <p class="tag tag--economy">Economía</p>
+                    <h3>Exportaciones alcanzan récord impulsadas por el sector tecnológico</h3>
+                    <p>El dinamismo de startups logísticas y fintech eleva la competitividad global de la región.</p>
+                    <a class="link--secondary" href="#">Leer más</a>
+                </article>
+                <article>
+                    <img src="assets/img/noticia3.svg" alt="Laboratorio de investigación médica" />
+                    <p class="tag tag--science">Ciencia</p>
+                    <h3>Nuevo test genético promete diagnósticos tempranos accesibles</h3>
+                    <p>Investigadores locales desarrollan tecnología de bajo costo para hospitales públicos.</p>
+                    <a class="link--secondary" href="#">Leer más</a>
+                </article>
+                <article>
+                    <img src="assets/img/noticia4.svg" alt="Persona utilizando gafas de realidad aumentada" />
+                    <p class="tag tag--tech">Tecnología</p>
+                    <h3>Realidad mixta llega a las aulas con alianzas público-privadas</h3>
+                    <p>Pilotos educativos muestran mejoras en engagement y aprendizaje especializado.</p>
+                    <a class="link--secondary" href="#">Leer más</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="categories" aria-labelledby="titulo-categorias">
+            <div class="section-heading">
+                <h2 id="titulo-categorias">Cobertura por temas</h2>
+            </div>
+            <div class="categories__grid">
+                <article id="politica">
+                    <h3>Política</h3>
+                    <p>Seguimiento diario a decisiones gubernamentales, regulaciones y procesos electorales con análisis experto.</p>
+                    <a class="link--secondary" href="#">Ver política</a>
+                </article>
+                <article id="economia">
+                    <h3>Economía</h3>
+                    <p>Reportes sobre mercados, finanzas personales y estrategias empresariales que marcan tendencia.</p>
+                    <a class="link--secondary" href="#">Ver economía</a>
+                </article>
+                <article id="mundo">
+                    <h3>Mundo</h3>
+                    <p>Cobertura global con corresponsales en terreno y contexto para entender los acontecimientos internacionales.</p>
+                    <a class="link--secondary" href="#">Ver mundo</a>
+                </article>
+                <article id="tecnologia">
+                    <h3>Tecnología</h3>
+                    <p>Innovación, startups y la transformación digital que impacta a empresas, gobiernos y ciudadanos.</p>
+                    <a class="link--secondary" href="#">Ver tecnología</a>
+                </article>
+                <article id="cultura">
+                    <h3>Cultura</h3>
+                    <p>Arte, entretenimiento y las expresiones creativas que definen la identidad contemporánea.</p>
+                    <a class="link--secondary" href="#">Ver cultura</a>
+                </article>
+                <article>
+                    <h3>Deportes</h3>
+                    <p>Cronologías, estadísticas y entrevistas exclusivas con protagonistas de las principales ligas.</p>
+                    <a class="link--secondary" href="#">Ver deportes</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="featured" id="opinion">
+            <div class="section-heading">
+                <h2>Análisis y opinión</h2>
+                <a class="section-heading__link" href="#">Columnistas</a>
+            </div>
+            <div class="featured__grid">
+                <article>
+                    <p class="tag tag--opinion">Opinión</p>
+                    <h3>La economía circular necesita datos abiertos y ciudadanos activos</h3>
+                    <p>Por Laura Serrano, economista ambiental.</p>
+                    <a class="link--secondary" href="#">Leer columna</a>
+                </article>
+                <article>
+                    <p class="tag tag--culture">Cultura</p>
+                    <h3>El renacimiento de los festivales híbridos en Iberoamérica</h3>
+                    <p>Por Martín Varela, crítico cultural.</p>
+                    <a class="link--secondary" href="#">Leer columna</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter" id="boletin">
+            <div class="newsletter__content">
+                <h2>Suscríbete al boletín Reportar</h2>
+                <p>Recibe en tu correo un resumen editorial con la información imprescindible para comenzar el día.</p>
+                <form class="newsletter__form">
+                    <label for="email" class="visually-hidden">Correo electrónico</label>
+                    <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required />
+                    <button type="submit">Quiero estar informado</button>
+                </form>
+                <p class="newsletter__disclaimer">Al suscribirte aceptas nuestra <a href="#">política de privacidad</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer__grid">
+            <div>
+                <h3>Reportar Noticias</h3>
+                <p>Periodismo independiente con rigurosidad, contexto y perspectiva global.</p>
+            </div>
+            <nav aria-label="Enlaces de utilidad">
+                <h4>Explora</h4>
+                <ul>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Equipo</a></li>
+                    <li><a href="#">Políticas editoriales</a></li>
+                    <li><a href="#">Publicidad</a></li>
+                </ul>
+            </nav>
+            <div>
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="mailto:redaccion@reportar.com">redaccion@reportar.com</a></li>
+                    <li><a href="tel:+34911000000">+34 911 000 000</a></li>
+                    <li>Av. de la Información 123, Madrid</li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <h4>Síguenos</h4>
+                <ul>
+                    <li><a href="#" aria-label="Twitter">Twitter</a></li>
+                    <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+                    <li><a href="#" aria-label="YouTube">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer__legal">© 2024 Reportar Noticias. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
